@@ -1,8 +1,18 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export', 
-  images: { unoptimized: true },
-  trailingSlash: true, // يضمن عمل الروابط بشكل صحيح على GitHub Pages
+{
+  "name": "basma-id",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "crypto-js": "^4.2.0",
+    "lucide-react": "^0.300.0"
+  }
 }
-
-module.exports = nextConfig
